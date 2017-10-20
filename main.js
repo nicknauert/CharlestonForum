@@ -21,3 +21,8 @@
         behavior: 'smooth' 
       });
   })
+
+  document.querySelector(".emailSubmitBtn").addEventListener("click", function(evt){
+    evt.preventDefault();
+    //send
+  })
