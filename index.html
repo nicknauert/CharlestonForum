@@ -8,7 +8,7 @@
         <link href="./styles/style.css" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar">
+        <nav class="navbar shown-in-desktop">
             <p class="fullSpan">MARK YOUR CALENDERS FOR JUNE 8, 2018</p> 
             <ul class="nav-list">
                 <li><img class="logo" src="./img/logo.png" alt=""></li>
@@ -17,6 +17,25 @@
                 <li class="nav-link" id="eventLink">EVENT</li>
                 <li class="nav-link" id="digitalForumLink">DIGITAL FORUM</li>
                 <li class="ticketsBtn"><a href="#">BUY TICKETS</a></li>
+            </ul>
+        </nav>
+        <nav class="navbar shown-in-mobile">
+            <p class="fullSpan">MARK YOUR CALENDERS FOR JUNE 8, 2018</p> 
+            <div class="logo-span-div">
+                <img class="logo" src="./img/logo.png" alt="">
+                <div class="menuButton">
+                    <div class="menuButtonSegment"></div>
+                    <div class="menuButtonSegment"></div>
+                    <div class="menuButtonSegment"></div>
+                </div>
+            </div>
+            
+            <ul class="nav-list hidden" id="navMenu">
+                <li class="nav-link" id="aboutLinkMobile">ABOUT</li>
+                <li class="nav-link" id="sponsorsLinkMobile">SPONSORSHIP</li>
+                <li class="nav-link" id="eventLinkMobile">EVENT</li>
+                <li class="nav-link" id="digitalForumLinkMobile">DIGITAL FORUM</li>
+                <li class="nav-link"><a href="#">BUY TICKETS</a></li>
             </ul>
         </nav>
         <header class="header">
